@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   experimental: {
     defaults: {
       nuxtLink: {
-        prefetchOn: 'interaction',
+        prefetchOn: { interaction: true },
       },
     },
   },
